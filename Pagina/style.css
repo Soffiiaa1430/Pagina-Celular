@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.primero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d5c67;
+}
+#tit{
+    margin: 5px 0 0 150px;
+} 
+#tit img{
+    width: 220px;
+}
+#menu ul{
+    display: flex;
+    margin: 0 90px;
+}
+#menu ul li{
+    list-style: none;
+}
+#menu ul li a{
+    color: white;
+    margin: 0 40px;
+    list-style: none;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    background-color: #323a41;
+    transition: background-color 0.4s ease, color 0.3s ease;
+    border-radius: 30%;
+    padding: 10px;
+}
+#conte{
+    background-color: #4d5c67;
+    display: flex;
+}
+#cel img{
+    margin: 30px 0 0 140px;
+    width: 400px;
+    height: auto;
+}
+#parr{
+    font-size: 20px;
+    color: #cbcccd;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#parr2{
+    color: white;
+    font-size: 57px;
+    margin-bottom: 15px;
+}
+#parr p{
+    margin-bottom: 15px;
+    width: 75%;
+}
+#parr3{
+    color: #9a9b9c;
+}
+#cli{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cli button{
+    width: 350px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: #3c92d0;
+    color: #fefefe;
+}
+#cli p{
+    text-align: center;
+    margin-top: 15px;
+}
+#cli a{
+    border-bottom: solid #ecedee;
+    text-decoration: none;
+    color: #ecedee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cli a img{
+    margin-right: 10px;
+}
+#cli a span{
+    font-size: 15px;
+    width: 150px;
+}
+.tes{
+    background-color: #ececec;
+    height: 70px;
+}
+.tes nav ul{
+    list-style:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tes nav ul li {
+    margin-top: 20px;
+}
+.tes nav ul li a img{
+    height:36px;
+}
+.rpg{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#rpg2{
+    text-align:center;
+    font-size:10pt;
+}
+#rpg2 h3{
+    font-size: 18px;
+    color: #4f5d68;
+    margin-bottom: 10px;
+}
+#rpg2 p{
+    font-size: 12px;
+    width: 75%;
+    margin-left: 55px;
+    color: #adadac;
+    margin-bottom: 30px;
+}
+#botoon button{
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    background-color: #3c92d0;
+    color: #ecf2f8;
+}
+#imgc img{
+    width: 100px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.segus{
+    width: 100%;
+    margin-top: 50px;
+}
+#titsegus{
+    display: flex;
+    align-items: center;
+    color: #6e7a83;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
+#titsegus img{
+    width: 20px;
+    margin-right: 8px;
+}
+#segusI{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#imgS img{
+    border: solid 5px #ffffff;
+    width: 230px;
+    height: 170px;
+}
+.tercer{
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#izq{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#trt{
+    margin: 15px 0 20px 105px;
+    font-size: 15px;
+}
+#trt img{
+    width: 15px;
+    margin-right: 10px;
+}
+#trt span{
+    color: #5e6b75;
+}
+#terI{
+    margin-left: 105px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#imgcc img{
+    border: solid 2px black;
+    width: 140px;
+}
+#terI h3{
+    font-size: 12px;
+}
+#terI p{
+    font-size: 12px;
+}
+#terI span{
+    font-size: 10px;
+}
+#holl {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#holl h3{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #848484d4;
+}
+#holl p{
+    width: 85%;
+    color: #8d8d8dbf;
+}
+#holl span{
+    color: #8d8d8dbf;
+}
+#holl p a{
+    font-size: 12px;
+    margin-left: -1px;
+}
+#iphone img{
+    width: 140px;
+    height: 100px;
+}
+#izq a{
+    color: #529ed5;
+    text-decoration: none;
+    margin-left: 105px;
+    font-size: 13px;
+}
+#tercerD{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#titD{
+    margin: 15px 0 20px 50px;
+    font-size: 15px;
+}
+#titD img{
+    width: 22px;
+    margin-right: 10px;
+}
+#titD{
+    color: #5e6b75;
+}
+#ter2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+#ter2 p{
+    line-height: 25px;
+    font-size: 12px;
+    width: 85%;
+    color: #8d8d8dbf;
+}
+#ter2 p b{
+    color: #848484d4;
+}
+#ter2 p a{
+    text-decoration: none;
+    color: #529ed5;
+    margin-left: -1px;
+}
+#ter2 span{
+    font-size: 10px;
+    margin-bottom: 30px;
+    color: #8d8d8dbf;
+}
+#tercerD div{
+    margin-top: -15px;
+}
+#tercerD a{
+    color: #529ed5;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 12.5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #ebebeb;
+    height: 80px;
+    width: 80%;
+    margin-left: 100px;
+}
+footer p{
+    color: #949494;
+    margin-right: 500px;
+    font-size: 12px;
+}
+
+
+@media screen and (min-width:481px) and (max-width:767px){
+    .primero{
+        display: flex;
+        flex-direction: column;
+    }
+    #tit img{
+        width: 130px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #menu{
+        text-align: center;
+    }
+    #menu ul{
+        margin: 0 30px;
+    }
+    #menu ul li a{
+        margin: 0 20px;
+    }
+    #conte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cel img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #parr{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #parr2{
+        font-size: 35px;
+    }
+    #parr p{
+        width: 70%;    
+        font-size: 12px;
+    }
+    #cli{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #cli button{
+        width: 90%;
+        height: 35px;
+    }
+    #cli a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #cli a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #cli a span{
+        font-size: 14px;
+    }
+    .rpg{
+        display: flex;
+        flex-direction: column;
+    }
+    #rpg2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #rpg2 p{
+        margin: 5px 0 20px 0;
+        width: 70%;
+    }
+    #segusI{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #titsegus{
+        margin-left: 30px;
+    }
+    #trt{
+        margin: 15px 0 20px 15px;
+        font-size: 15px;
+    }
+    #terI{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terI h3{
+        font-size: 10px;
+    }
+    #terI p{
+        font-size: 10px;
+    }
+    #terI p a{
+        font-size: 10px;
+    }
+    #terI span{
+        font-size: 9px;
+    }
+    #izq a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 11px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 60%;
+        margin-left: 100px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+    #imagesFooter img{
+        width: 20px;
+    }
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1279px){
+    .primero{
+        display: flex;
+        flex-direction: column;
+    }
+    #tit img{
+        width: 160px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #conte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu{
+        margin-bottom: 10px;
+    }
+    #cel img{
+        margin: 30px 0 30px 0;
+        width: 350px;
+        height: auto;
+    }
+    #parr{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #parr2{
+        font-size: 45px;
+    }
+    #parr p{
+        text-align: center;
+        width: 55%;    
+        font-size: 15px;
+    }
+    #cli{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #cli button{
+        width: 90%;
+        height: 35px;
+    }
+    #cli a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #cli a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #cli a span{
+        font-size: 14px;
+    }
+    #imgS   img{
+        width: 150px;
+        height: 130px;
+    }
+    #trt{
+        margin: 15px 0 20px 162px;
+        font-size: 15px;
+    }
+    #izq a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 37%;
+        font-size: 12px;
+    }
+    #terI{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terI h3{
+        font-size: 10px;
+        margin-left: 29%;
+    }
+    #terI p{
+        font-size: 10px;
+        width: 50%;
+        margin-left: 29%;
+    }
+    #terI p a{
+        font-size: 10px;
+    }
+    #tercI span{
+        font-size: 9px;
+        margin-left: 29%;
+    }
+    #imgcc img{
+        width: 123px;
+    }
+    #iphone img{
+        width: 123px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 80%;
+        margin-left: 100px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 10px;
+    }
+    #imagesFooter img{
+        width: 20px;
+    }
+}
+
+
+@media screen and (min-width:352px) and (max-width:480px){
+    .primero{
+        display: flex;
+        flex-direction: column;
+    }
+    #tit img{
+        width:100px;
+        margin-right: 140px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    #menu{
+        text-align: center;
+        font-size: 15px;
+    }
+    #menu ul{
+        margin: 0 30px;
+    }
+    #menu ul li a{
+        margin: 0 20px;
+    }
+    .tes nav ul li a img{
+        width: 40px;
+        height: auto;
+    }
+    #conte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #cel img{
+        margin: 30px 0 30px 0;
+        width: 200px;
+        height: auto;
+    }
+    #parr{
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #parr2{
+        font-size: 25px;
+    }
+    #parr p{
+        width: 65%;    
+        font-size: 11px;
+    }
+    #cli{
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border-bottom: solid #ececec;
+    }
+    #cli button{
+        width: 90%;
+        height: 35px;
+    }
+    #cli a{
+        margin-left: 20px;
+        text-align: center;
+        border-bottom: none;
+    }
+    #cli a img{
+        height: 13px;
+        margin-right: -5px;
+    }
+    #cli a span{
+        font-size: 14px;
+    }
+    .rpg{
+        display: flex;
+        flex-direction: column;
+    }
+    #rpg2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    #rpg2 p{
+        margin: 5px 0 20px 0;
+        width: 70%;
+    }
+    #imgc img{
+        width: 100px;
+        height: 100px;
+    }
+    #segusI{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #imgS img{
+        width: 180px;
+        height: 150px;
+    }
+    #titsegus{
+        margin-left: 30px;
+    }
+    #trt{
+        margin: 15px 0 20px 50px;
+        font-size: 15px;
+    }
+    #izq a{
+        color: #529ed5;
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+    #terI{
+        margin-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #terI h3{
+        font-size: 10px;
+    }
+    #terI p{
+        font-size: 10px;
+    }
+    #terI p a{
+        font-size: 10px;
+    }
+    #terI span{
+        font-size: 9px;
+    }
+    #imgcc img{
+        width: 123px;
+    }
+    #iphone img{
+        width: 123px;
+    }
+    #titD{
+        font-size: 13px;
+        margin: 15px 0 20px 35px;
+    }
+    #titD img{
+        width: 20px;
+    }
+    #ter2{
+        margin-right: 50px;
+    }
+    #ter2 p{
+        font-size: 10px;
+    }
+    #ter2 p a{
+        font-size: 10px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 2px solid #ebebeb;
+        height: 80px;
+        width: 70%;
+        margin-left: 70px;
+    }
+    footer p{
+        color: #949494;
+        margin-right: 50px;
+        font-size: 8px;
+    }
+    #imagesFooter img{
+        width: 15px;
+    }
+}
